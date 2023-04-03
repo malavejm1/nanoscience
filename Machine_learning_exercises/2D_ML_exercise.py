@@ -67,7 +67,7 @@ results_dpx = nn_dp.fit(R,Z, epochs=100, batch_size= 5, verbose=1)
 z = nn_dp.predict(Z)
 
 
-# Plot shitty solution
+# Plot solution
 
 
 
