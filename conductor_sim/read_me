@@ -1,0 +1,3 @@
+A FORTRAN code that solves the Maxwell equations of Riemann-Silberstein electrodynamics in the presence of a perfectly conducting object. (This code uses the mask function to model the boundaries of the conductor)
+
+This code must be compiled using Make
