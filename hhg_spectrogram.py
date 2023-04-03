@@ -1,3 +1,9 @@
+'''
+HHG spectrogram program to perform 
+a frequency-time analysis on high-energy
+photons ejected from electron-ion recombination
+sites
+'''
 
 import numpy as np
 from scipy import signal
