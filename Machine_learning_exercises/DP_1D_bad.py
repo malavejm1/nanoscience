@@ -31,7 +31,7 @@ results_sv = nn_sv.fit(X, Y, epochs=5, batch_size= 5, verbose=1)
 
 
 
-# Plot shitty solution
+# Plot  solution
 plt.plot(X,Y,'.',label='Data points',color='lightgray')
 plt.plot(X,nn_sv.predict(X),'.',label='Supervised',color='red')
 plt.xlabel('y')
