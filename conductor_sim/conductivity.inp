@@ -1,0 +1,6 @@
+2       ! shape (1 for sphere, 2 for rectangle)
+10 10 10        ! dimensions (sphere only needs first entry)
+2       ! NONZERO mask width integer for mask function (only used for sheet)
+1       ! conductivity (between 0 and 1)
+2 2 2   ! shift in x, shift in y, shift in z
+

@@ -1,0 +1,94 @@
+set_initial_fstate,          2, Add initial field to RS vector
+set_initial_f_e0,            1, E0 of initial field to RS vector
+set_initial_f_wid,           1, wid of initial field to RS vector
+set_initial_f_shift,         1, shift of initial field to RS vector
+guess_pib_states,            2, Guess initial WF using PIB states
+save_dump_files,             1, if set > 0  keeps E files for that many steps
+switch_mix_cf_red_freq,      1, take the sqrt of the switch mix coefficient every N steps
+kick_psi,                    2, kick the GS
+kick_direction,              1, direction to kick 1=x 2=y 3=z
+kick_plane,                  1, plane to kick around. 1=yz, 2=xz, 3=yz
+kick_wid,                    1, wid of gaussian kick range
+kick_k,                      1, momentum of kick.
+kick_x0,                     1, location to center the kick
+kick_y0,                     1, location to center the kick
+kick_z0,                     1, location to center the kick
+periodic,                    2, periodic boundary conditions for Poisson
+nper_x,                      1, cells are repeated in the x direction
+nper_y,                      1, cells are repeated in the y direction
+nper_z,                      1, cells are repeated in the z direction
+orbital_free,                2, orbital free calculation
+tddft,                       2, tddft with orbitals
+lambda_w,                    1, lambda_w
+lambda_tf,                   1, lambda_tf
+cdft,                        2, constrained OF calculations
+addpot,                      2, add constraining potential
+mgp,                         2, mpg potential
+rho0,                        1, rho0 for mpg
+mgp_a,                       1, a for mpg
+mgp_b,                       1, b for mpg
+dipole_pert,                 2, dipole perturbation
+kick_strength,               1, strength of dipole perturbation
+kick_dir,                    1, direction of pert 1=x,2=y,3=z
+dkef,                        1, dynamic functional type 1, and 2
+n_electrons,                 1, number of electrons
+n_electrons_of,              1, number of electrons_of
+n_x,                         1, grid points x
+n_y,                         1, grid points y
+n_z,                         1, grid points z
+grid_step,                   1, grid spacing
+n_cap_qm_x,                  1, cap qm x
+n_cap_qm_y,                  1, cap qm y
+n_cap_qm_z,                  1, cap qm z
+n_cap_rs_x,                  1, cap rs x
+n_cap_rs_y,                  1, cap rs y
+n_cap_rs_z,                  1, cap rs z
+load_gs,                     2, load ground state wf 
+num_gs_iter,                 1, number of iterations for GS wf  
+n_iteration_cg,              1, number of iterations for CG         
+n_iteration_switch,          1, iteration switch 
+energy_convergence_tol,      1, energy_convergence_tol           
+switch_mix_coeff,            1, switch_mix_coeff
+time_step,                   1, time step
+n_time,                      1, Number of time steps
+doutfreq,                    1, output frequency
+e_0,                         1, Peak Electric field of pulse
+laser_wavelength,            1, laser wavelength in nm
+laser_pulse_shift1,          1, Pulse peak shift in a.u.
+laser_pulse_width1,          1, pulse width
+ramp_time,                   1, ramp time
+use_custom_laser,            1, =0 NO; =1 custom 1D; =2 custom 3d use a laser function defined in the file custom_laser.f90
+custom_laser_type,           1, type selector for custom laser
+custom_laser_parm1,          1, parameter for custom laser
+custom_laser_parm2,          1, parameter for custom laser
+custom_laser_parm3,          1, parameter for custom laser
+custom_laser_parm4,          1, parameter for custom laser
+custom_laser_parm5,          1, parameter for custom laser
+custom_laser_parm6,          1, parameter for custom laser
+td_mode,                     1, 0=print laser,  1=do calc with both MW and SE,  2= just maxwell 
+rs_iter_per_ts,              1, number of maxwell steps
+rs_helmhmode,                1, Helmholtz decomposition mode, 1=Vector_Pot 2=Current 3=Total_E_field
+scale_current,               1, caling factor for current
+rs_freq_save_wall,           1, freq to save avg E field at walls
+time_order_mode,             1, time_order_mode  1= regular  12=leapfrog
+field_output_mode,           1, 0=full_3d 1=XYZslices 2=XYZaverages   23=2dX-Z--Yaverage and 1dX
+moldyn,                      2, molecular dynamics
+atomic_movement_frequency,   1, 
+trajectory_output_frequency, 1,
+calc_flux_z0,                2, set wether to calculate flux
+use_core_conductivity,       2, assigns conducting region to account for core electrons. Will read file cond.inp
+read_in_switch_mix_coeff,    2, read in the mixing coefficient for the GS solver from file SWITCH_MIX_COEFF
+save_curr,                   2, Save the current from electrons
+save_density,                2, Save the electron density
+save_den_slices,             2, Save the electron density as slices regardless of field_output_mode
+save_e_induced,              2, Save the induced field by itself
+save_e_full,                 2, Save the full E field- induced+laser
+save_e_merged,               2, Save the induced field with an extra column that has the total field
+save_e_wv,                   2, Save the solenoidal part separate
+save_a_pot,                  2, Save the vector potential
+save_b_field,                2, Save the magnetic field when saving other stuff
+output_stride,               1, stride used to output arrays in text form. Use =2 or =3 to reduce resolution but save space. 
+atom_crd_filename,           3, file name of the coordinate file. Default is atom.inp
+load_atom_velocities,        2, load initial atomic velocities from file velocity.inp. Default=false
+conducting_shape,	     2, include abstract conducting surface
+mix_conductor_schrodinger    2, mix current and conductivity of abstract conducting surface
