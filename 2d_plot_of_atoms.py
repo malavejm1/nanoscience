@@ -1,3 +1,5 @@
+# A simple python code that takes organized output detailing of a spin-sensitive electron density and plots it
+
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LogNorm
