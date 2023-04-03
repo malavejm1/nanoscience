@@ -1,3 +1,6 @@
+#  This code is designed to calculate the fast fourier transform of simulated dipole spectra of atoms and molecules.
+
+
 # code is based on program designed by Harvard U. collaborator Dr. Davis Welakuh
 
 import os
