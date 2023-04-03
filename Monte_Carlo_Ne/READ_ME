@@ -1,0 +1,10 @@
+Code that uses the time-dependent variational principle to 
+optimizes the parameters of Neon electron wave functions, confined
+in a photonic cavity, of the variational Monte Carlo form.
+
+The methods use here may be read about on pages 119 and 250 of
+"Computational Nanoscience", by Kalman Varga and
+Joseph Driscoll.
+
+The codes are adapated from the source code on the book's
+website
