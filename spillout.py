@@ -1,3 +1,7 @@
+'''
+Python code that takes the electron density of periodic nanostructures 
+as input and calculates the electron spillout -- the quantum "fuzz" forming the boundary of nanoscale system -- off the edge of the structures
+'''
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import matplotlib.cbook as cbook
