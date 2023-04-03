@@ -1,3 +1,6 @@
+! Fortran code for generating a nanoparticle of a specific form using a large graphene sheet and an aluminum rod
+
+
 !TAKES UNEDITED INPUT OF ALUMINUM AND GRAPHENE AND MAKES TWO VERSIONS OF
 !A HYBRID NANOPARTICLE: ONE WITH A STEP IN THE GRAPHENE, AND ONE
 !WITHOUT IT.
