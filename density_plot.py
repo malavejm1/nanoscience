@@ -1,3 +1,5 @@
+#Strings together N data files to make N density plots or contour plots. I usually follow this up with ffmpeg, a way to string the output together to make a movie
+
 # DENSITY PLOT PYTHON PROGRAM
 # READ MY COMMENTS CAREFULLY
 
