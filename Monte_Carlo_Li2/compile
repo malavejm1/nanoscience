@@ -1,0 +1,1 @@
+ifort -o tdvpmc_li2 tdvp_mc_li2.f90 linalg.f90 diag.f90 -mkl -lfftw3
