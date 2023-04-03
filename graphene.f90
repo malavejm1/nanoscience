@@ -1,3 +1,5 @@
+! Fortran code which outputs the coordinates of the atoms constituting a graphene sheet of user-set dimensionality
+
 implicit none
 real*8 :: position(3,4),a1,a2,z1,z2,a0,dx_min,dx_max,dx,dy,diff,min_diff,min_diff_valx,min_diff_valy
 real*8 :: best_x_size,best_y_size,use_grid_space
