@@ -4,4 +4,6 @@ Hello! In this repo are a handful of simulation engineering and data analysis co
 In addition to these programs are codes I designed for recreational purposes -- such as simple code using neural
 networks and a jocular exercise involving a Twitter bot.
 
+I've also provided my publications/presentations in the "Publications" folder, as all of my publications and presentations are behind paywalls.
+
 Thanks!
