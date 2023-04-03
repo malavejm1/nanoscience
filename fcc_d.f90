@@ -1,3 +1,5 @@
+!Fortran code which produces the atomic coordinates for diamond
+
 implicit none
 integer :: i,j,length
 real*8 :: A,pi = 3.14159265359,l,AH,sss
