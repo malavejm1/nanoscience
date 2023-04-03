@@ -53,7 +53,7 @@ results_dp = nn_dp.fit(X, X, epochs=10, batch_size= 5, verbose=1)
 
 
 
-# Plot shitty solution
+# Plot  solution
 plt.plot(X,Y,'.',label='Data points',color='lightgray')
 plt.plot(X,nn_dp.predict(X),'.',label='Diff Phys',color='green')
 plt.xlabel('y')
